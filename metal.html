@@ -76,7 +76,21 @@ Need help choosing the right type of roofing material for your home? No worries,
        
       </div>
       <div class="col-md-6"> <!-- Image Header -->
-      <img class="img-fluid rounded mb-4" src="img/metal2.jpg" alt=""></div>
+          <img class="img-fluid rounded mb-4" src="img/metal2.jpg" alt="">
+          <button class="btn btn-lg btn-light btn-block" data-toggle="modal" data-target="#exampleModalLong">Get A Free Quote</button>
+           <!--modal button-->
+          <div id="modal-placeholder">
+          </div>
+
+          <script>
+          $(function(){
+            $("#modal-placeholder").load("modal.html");
+          });
+          </script>
+          <!--modal button-->
+
+      </div>
+
       <!-- /.row -->
 
     </div>
