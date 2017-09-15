@@ -10,7 +10,7 @@ body, html {
 }
 
 nav {
-  background-color: #263238;
+  background-color: #607d8b
 }
 
 .intro-header {
@@ -142,7 +142,7 @@ nav {
 
 footer {
   padding: 50px 0;
-  background-color: #37474F;
+  background-color: #34515e;
 }
 
 p.copyright {
