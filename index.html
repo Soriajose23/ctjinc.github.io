@@ -11,7 +11,6 @@
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="css/landing-page.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
     <!--Navigation bar-->
@@ -222,16 +221,14 @@
             <div class="col-md-4">
               <address>
                 <h4>Business Hours</h4>
-                <strong class="text-warning"> Monday - Thursday </strong>
+                <strong class="text-warning"> Monday - Friday </strong>
                 <br> 8 p.m. - 4 p.m.
-                <br> <strong class="text-warning"> Friday </strong>
-                <br> 8 p.m. - 3 p.m.
                 <br> <strong class="text-warning"> Saturday & Sunday </strong>
                 <br> Closed
               </address>
             </div>
             <div class="col-md-4">
-              <iframe width="100%" height="200px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+              <div id="google-map" style="height:200px;"></div>
             </div>
           </div>
           <!-- /.row -->
@@ -239,7 +236,7 @@
           <!-- Call to Action Section -->
           <div class="row mb-4">
             <div class="col-md-8 text-white">
-              <p>Need help choosing the right type of roofing material for your home? No worries, we can help.</p>
+              <p>Need help choosing the right type of roofing material? No worries, we can help.</p>
             </div>
             <div class="col-md-4">
               <button class="btn btn-lg btn-primary btn-block" data-toggle="modal" data-target="#exampleModalLong">Get A Free Quote!</button>
@@ -270,5 +267,8 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuIsJ35nOXDYzF0lVWIWI1dVcmu9cNn7g"></script>
   </body>
 </html>
