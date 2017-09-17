@@ -11,7 +11,7 @@ body, html {
 
 #nv {
   background-color: #455a64;
-  border-bottom: 1px solid $bg-primary #007bff;
+  border-bottom: 1px solid #007bff;
 }
 
 nav {
