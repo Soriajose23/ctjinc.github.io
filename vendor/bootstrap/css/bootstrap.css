@@ -3633,6 +3633,8 @@ tbody.collapse.show {
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
   color: white;
+  border-bottom: 3px solid;
+  border-bottom-color: red;
 }
 
 .navbar-dark .navbar-toggler {
