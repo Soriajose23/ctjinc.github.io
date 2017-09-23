@@ -23,70 +23,66 @@
     });
     </script>
     
-    <div class="container mt-4">
-    
-     <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Services
-      <small>Slate Roofing</small>
-      </h1>
+    <div class="container mt-5">
+      
+      <!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-4 mb-4">Fill Out Form</h1>
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="index.html">Home</a>
         </li>
-        <li class="breadcrumb-item active">Services</li>
+        <li class="breadcrumb-item active">Form</li>
       </ol>
       <hr>
-
-
-    <form method="POST" action="https://formspree.io/soriajose53@yahoo.com">
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <input type="text" class="form-control" name="First Name" id="inputFirst" placeholder="First Name">
+      <form method="POST" action="https://formspree.io/soriajose53@yahoo.com">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" name="First Name" id="inputFirst" placeholder="First Name">
+          </div>
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" name="Last Name" id="inputLast" placeholder="Last Name">
+          </div>
         </div>
-        <div class="form-group col-md-6">
-          <input type="text" class="form-control" name="Last Name" id="inputLast" placeholder="Last Name">
+        <div class="form-check form-check-inline">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="Type" id="inlineRadio1" value="Commercial Project"> Commercial Project
+          </label>
         </div>
-      </div>
-      <div class="form-check form-check-inline">
-        <label class="form-check-label">
-          <input class="form-check-input" type="radio" name="Type" id="inlineRadio1" value="Commercial Project"> Commercial Project
-        </label>
-      </div>
-      <div class="form-check form-check-inline">
-        <label class="form-check-label">
-          <input class="form-check-input" type="radio" name="Type" id="inlineRadio2" value="Residential Project"> Residential Project
-        </label>
-      </div>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <input type="text" class="form-control" name="Address" id="inputAddress" placeholder="Street Address">
+        <div class="form-check form-check-inline">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="Type" id="inlineRadio2" value="Residential Project"> Residential Project
+          </label>
         </div>
-        <div class="form-group col-md-4">
-          <input type="text" class="form-control" name="City" id="inputCity" placeholder="City">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" name="Address" id="inputAddress" placeholder="Street Address">
+          </div>
+          <div class="form-group col-md-4">
+            <input type="text" class="form-control" name="City" id="inputCity" placeholder="City">
+          </div>
+          <div class="form-group col-md-2">
+            <input type="text" class="form-control" name="State" id="inputState" placeholder="State">
+          </div>
         </div>
-        <div class="form-group col-md-2">
-          <input type="text" class="form-control" name="State" id="inputState" placeholder="State">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input type="number" id="inputNumber" name="Phone Number" class="form-control" placeholder="Phone Number">
+          </div>
+          <div class="form-group col-md-6">
+            <input type="email" class="form-control" name="_replyto"  id="inputEmail" placeholder="Email Address">
+          </div>
         </div>
-      </div>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <input type="number" id="inputNumber" name="Phone Number" class="form-control" placeholder="Phone Number">
+        <div class="form-group">
+          <textarea class="form-control" name="Project Info" id="exampleFormControlTextarea1" rows="5" placeholder="Details about project"></textarea>
         </div>
-        <div class="form-group col-md-6">
-          <input type="email" class="form-control" name="_replyto"  id="inputEmail" placeholder="Email Address">
+        <input type="hidden" name="_subject" value="Requested Quote From Carl T. Johnson Inc.!" />
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_format" value="plain" />
+        <div class="modal-footer">
+          <button type="Submit" class="btn btn-primary">Submit</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
-      </div>
-      <div class="form-group">
-        <textarea class="form-control" name="Project Info" id="exampleFormControlTextarea1" rows="5" placeholder="Details about project"></textarea>
-      </div>
-      <input type="hidden" name="_subject" value="Requested Quote From Carl T. Johnson Inc.!" />
-      <input type="text" name="_gotcha" style="display:none" />
-      <input type="hidden" name="_format" value="plain" />
-      <div class="modal-footer">
-        <button type="Submit" class="btn btn-primary">Submit</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </form>
+      </form>
     </div>
     
     <footer class="py-5 bg-dark">
